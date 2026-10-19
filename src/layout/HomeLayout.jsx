@@ -1,3 +1,4 @@
+import Footer from "../component/Footer";
 import Banner from "../component/HomePage/Banner";
 import Navbar from "../component/Navbar";
 
@@ -6,6 +7,7 @@ const HomeLayout = () => {
         <div>
             <Navbar />
             <Banner />
+            <Footer />
         </div>
     );
 };

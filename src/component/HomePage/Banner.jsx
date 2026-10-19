@@ -17,7 +17,7 @@ const Banner = () => {
             </video>
         </div>
         <div className="absolute  h-full w-full bg-black/80"></div>
-        <div className="relative flex min-h-screen flex-col items-center justify-center px-4 text-center text-white">
+        <div className="relative container mx-auto flex min-h-screen flex-col items-center justify-center px-4 text-center text-white">
             <p className="text-4xl font-bold md:text-6xl">
                 Explore and discover your favorite 
             </p>
