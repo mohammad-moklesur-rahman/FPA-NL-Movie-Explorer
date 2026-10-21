@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router";
 
 const Banner = () => {
+    const navigate = useNavigate();
     return (
         <>
         <div>
@@ -24,7 +26,7 @@ const Banner = () => {
             <p className="text-4xl pt-4 font-bold md:text-6xl">
                 Movies from around the world.
             </p>
-            <button className="bg-blue-600 px-8 py-4 mt-14 rounded-2xl text-white font-semibold hover:bg-gray-100 hover:text-gray-950 cursor-pointer transition-all">Explore Now</button>
+            <button onClick={() => navigate("/movies-list")} className="bg-blue-600 px-8 py-4 mt-14 rounded-2xl text-white font-semibold hover:bg-gray-100 hover:text-gray-950 cursor-pointer transition-all">Explore Now</button>
 
         </div>
         </>

@@ -1,12 +1,12 @@
+import { Outlet } from "react-router";
 import Footer from "../component/Footer";
-import Banner from "../component/HomePage/Banner";
 import Navbar from "../component/Navbar";
 
 const HomeLayout = () => {
     return (
         <div>
             <Navbar />
-            <Banner />
+            <Outlet />
             <Footer />
         </div>
     );
